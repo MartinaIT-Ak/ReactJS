@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Redux-logo {
+  margin: 10vh 0;
+  height: 50vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Redux-logo {
+    animation: Redux-logo-float infinite 3s linear;
+  }
+}
+
+@keyframes Redux-logo-float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.counter {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nbCounter {
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+.btnCounter {
+  width: 30px;
+  height: 30px;
+}
+
+.counterInput {
+  display: flex;
+  justify-content: center;
+}
+
+.counterInput input {
+  max-width: 50px;
+  margin-right: 2px;
+}
+
+button {
+  border: 1px solid #ab66ec;
+  color: #7e34c3;
+  background: #e9e3ee;
+}
